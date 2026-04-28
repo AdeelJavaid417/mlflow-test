@@ -5,19 +5,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Greet'
-        run: 
+        run: |
           echo "Hello✌️"
   test:
     runs-on: ubuntu-latest
     steps:
       - name: 'Test'
-        run: 
+        run: |
           echo "Testing the app✌️"
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 'deploy'
-        run: 
+        run: |
           echo "Deploying the app✌️"
         
     
