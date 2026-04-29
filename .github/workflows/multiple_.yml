@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Greet
         run: |
-          echo "Hello✌️"
+          echo "Hello {{vars.Name}}✌️"
 
   test:
     runs-on: ubuntu-latest
